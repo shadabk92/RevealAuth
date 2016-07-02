@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_contact_rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_contact_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="22dp"
+        android:transitionName="transition_reveal_contact"
+        app:backgroundTint="#ed2754"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="8dp" />
+
+    <LinearLayout
+        android:id="@+id/activity_contact_ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/revealbckgrnd"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="4">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:id="@+id/activity_contact_iv_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Full Name" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_contact_iv_github"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="College Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_contact_iv_emailaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Email Address" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_contact_iv_linkedin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="UserName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_contact_iv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password" />
+        </android.support.design.widget.TextInputLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_login"
+    android:text="Register and Enter"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/activity_contact_iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="@dimen/default_layout_margin"
+        android:layout_marginRight="@dimen/default_layout_margin"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_close"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
