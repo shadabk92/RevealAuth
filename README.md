@@ -16,11 +16,11 @@ Local Repository Setup
 
 **HTTPS**
 
-`git clone https://shadabk9192@bitbucket.org/fisandroid/reveal_auth.git`
+`git clone https://github.com/shadabk92/RevealAuth.git`
 
 **SSH**
 
-`git@bitbucket.org:fisandroid/reveal_auth.git`
+`git clone git@github.com:shadabk92/RevealAuth.git`
 
 
 ## Build
