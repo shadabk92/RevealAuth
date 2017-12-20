@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GibbrTest.iml" filepath="$PROJECT_DIR$/GibbrTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RevealAuth.iml" filepath="$PROJECT_DIR$/RevealAuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
